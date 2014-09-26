@@ -17,7 +17,7 @@ Then, in HTML body:
   <label>Date:</label>
   <input type='text' id='date' maxlength='10'>
   
-  <script>
+  	<script>
 		$(function() {
 			$('#date').dateValidation();
 		});
