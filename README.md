@@ -5,8 +5,7 @@
 
 It is very simple to use it. 
 
-Download the plugin and the css and do it in yout HTML <head>:
-
+Download the plugin and the css and do it in your HTML <head>:
 ```html
 <link rel='stylesheet' href='directory/validator.css'>
 <script src='directory/dateValidation.jquery.js'></script>
