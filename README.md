@@ -1,4 +1,4 @@
-'jquery-dateValidator'
+`jquery-dateValidator`
 ====================
 
 #**How to use**
