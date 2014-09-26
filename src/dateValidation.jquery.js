@@ -6,7 +6,7 @@
 		var numbers = text.split("/");
 
 		if(characters.length === 8) {
-			//Definindo dia, mês e ano
+			
 			var day = parseInt(numbers[0]);
 			var month = parseInt(numbers[1]);
 			var year = parseInt(numbers[2]);
