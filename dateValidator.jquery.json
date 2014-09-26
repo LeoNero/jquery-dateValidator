@@ -1,8 +1,8 @@
 {
 	"name": "dateValidator",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"title" : "jQuery Date Validator",
-	"autor": {
+	"author": {
 		"name": "LeoNero",
 		"email": "leonardofelipenerone@gmail.com"
 		},
@@ -13,6 +13,6 @@
 		}
 	],
 	"dependencies": {
-		"jQuery": ">=1.11.1"
+		"jquery": ">=1.11.1"
 	}
 }
