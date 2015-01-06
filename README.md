@@ -3,7 +3,7 @@
 
 #**How to use**
 
-It is very simple to use it. 
+It is very simple to use. 
 
 Download the plugin and the css on src and do it in your HTML head:
 ```html
