@@ -1,5 +1,4 @@
-;(function($) {
-
+(function($) {
 	function validateDate(text) {
 		var characters = text.replace(/\D/g, "");
 
@@ -34,31 +33,15 @@
 			*/
 		
 			if((month === 4) || (month === 6) || (month === 9) || (month === 11)) {
-				if(day > 30) { 
-					return false;
-				} else {
-					return true;
-				}
+				return day > 30 ? false : true;
 			} else if (month === 2) { 
 				if((year % 4 === 0) || (year % 400 === 0)) {
-					if(day > 29) {
-						return false;
-					} else {
-						return true;
-					}
+					return day > 29 ? false : true;
 				} else {
-					if(day > 28) {
-						return false;
-					} else {
-						return true;
-					}
+					return day > 28 ? false : true;
 				}
 			} else if ((month === 1) || (month === 3) || (month === 5) || (month === 7) || (month === 8) || (month === 10) || (month === 12)) { //Verifica os outros meses, que possuem 30 dias
-				if(day > 31) {
-					return false;
-				} else {
-					return true;
-				}
+				return day > 31 ? false : true;
 			}
 		}
 
